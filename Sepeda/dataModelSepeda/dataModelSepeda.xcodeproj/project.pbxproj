@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E957623625C9382100B9AF4F /* Datamodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E957623525C9382100B9AF4F /* Datamodel.swift */; };
+		E957623B25C938A900B9AF4F /* GlobalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E957623A25C938A900B9AF4F /* GlobalObject.swift */; };
+		E9A5A4F825C8FBF30080E966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5A4F725C8FBF30080E966 /* AppDelegate.swift */; };
+		E9A5A4FA25C8FBF30080E966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5A4F925C8FBF30080E966 /* SceneDelegate.swift */; };
+		E9A5A4FC25C8FBF30080E966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5A4FB25C8FBF30080E966 /* ContentView.swift */; };
+		E9A5A4FE25C8FBF50080E966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A5A4FD25C8FBF50080E966 /* Assets.xcassets */; };
+		E9A5A50125C8FBF50080E966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A5A50025C8FBF50080E966 /* Preview Assets.xcassets */; };
+		E9A5A50425C8FBF50080E966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A5A50225C8FBF50080E966 /* LaunchScreen.storyboard */; };
+		E9A5A50F25C8FBF50080E966 /* dataModelSepedaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5A50E25C8FBF50080E966 /* dataModelSepedaTests.swift */; };
+		E9A5A51A25C8FBF50080E966 /* dataModelSepedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5A51925C8FBF50080E966 /* dataModelSepedaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9A5A50B25C8FBF50080E966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A5A4EC25C8FBF30080E966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A5A4F325C8FBF30080E966;
+			remoteInfo = dataModelSepeda;
+		};
+		E9A5A51625C8FBF50080E966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A5A4EC25C8FBF30080E966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A5A4F325C8FBF30080E966;
+			remoteInfo = dataModelSepeda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E957623525C9382100B9AF4F /* Datamodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamodel.swift; sourceTree = "<group>"; };
+		E957623A25C938A900B9AF4F /* GlobalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObject.swift; sourceTree = "<group>"; };
+		E9A5A4F425C8FBF30080E966 /* dataModelSepeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataModelSepeda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A5A4F725C8FBF30080E966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9A5A4F925C8FBF30080E966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9A5A4FB25C8FBF30080E966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9A5A4FD25C8FBF50080E966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9A5A50025C8FBF50080E966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9A5A50325C8FBF50080E966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9A5A50525C8FBF50080E966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A5A50A25C8FBF50080E966 /* dataModelSepedaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dataModelSepedaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A5A50E25C8FBF50080E966 /* dataModelSepedaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModelSepedaTests.swift; sourceTree = "<group>"; };
+		E9A5A51025C8FBF50080E966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A5A51525C8FBF50080E966 /* dataModelSepedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dataModelSepedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A5A51925C8FBF50080E966 /* dataModelSepedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModelSepedaUITests.swift; sourceTree = "<group>"; };
+		E9A5A51B25C8FBF50080E966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9A5A4F125C8FBF30080E966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5A50725C8FBF50080E966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5A51225C8FBF50080E966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9A5A4EB25C8FBF30080E966 = {
+			isa = PBXGroup;
+			children = (
+				E9A5A4F625C8FBF30080E966 /* dataModelSepeda */,
+				E9A5A50D25C8FBF50080E966 /* dataModelSepedaTests */,
+				E9A5A51825C8FBF50080E966 /* dataModelSepedaUITests */,
+				E9A5A4F525C8FBF30080E966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A5A4F525C8FBF30080E966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A5A4F425C8FBF30080E966 /* dataModelSepeda.app */,
+				E9A5A50A25C8FBF50080E966 /* dataModelSepedaTests.xctest */,
+				E9A5A51525C8FBF50080E966 /* dataModelSepedaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9A5A4F625C8FBF30080E966 /* dataModelSepeda */ = {
+			isa = PBXGroup;
+			children = (
+				E9A5A4F725C8FBF30080E966 /* AppDelegate.swift */,
+				E9A5A4F925C8FBF30080E966 /* SceneDelegate.swift */,
+				E9A5A4FB25C8FBF30080E966 /* ContentView.swift */,
+				E9A5A4FD25C8FBF50080E966 /* Assets.xcassets */,
+				E9A5A50225C8FBF50080E966 /* LaunchScreen.storyboard */,
+				E9A5A50525C8FBF50080E966 /* Info.plist */,
+				E9A5A4FF25C8FBF50080E966 /* Preview Content */,
+				E957623525C9382100B9AF4F /* Datamodel.swift */,
+				E957623A25C938A900B9AF4F /* GlobalObject.swift */,
+			);
+			path = dataModelSepeda;
+			sourceTree = "<group>";
+		};
+		E9A5A4FF25C8FBF50080E966 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9A5A50025C8FBF50080E966 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9A5A50D25C8FBF50080E966 /* dataModelSepedaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A5A50E25C8FBF50080E966 /* dataModelSepedaTests.swift */,
+				E9A5A51025C8FBF50080E966 /* Info.plist */,
+			);
+			path = dataModelSepedaTests;
+			sourceTree = "<group>";
+		};
+		E9A5A51825C8FBF50080E966 /* dataModelSepedaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A5A51925C8FBF50080E966 /* dataModelSepedaUITests.swift */,
+				E9A5A51B25C8FBF50080E966 /* Info.plist */,
+			);
+			path = dataModelSepedaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9A5A4F325C8FBF30080E966 /* dataModelSepeda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A5A51E25C8FBF50080E966 /* Build configuration list for PBXNativeTarget "dataModelSepeda" */;
+			buildPhases = (
+				E9A5A4F025C8FBF30080E966 /* Sources */,
+				E9A5A4F125C8FBF30080E966 /* Frameworks */,
+				E9A5A4F225C8FBF30080E966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dataModelSepeda;
+			productName = dataModelSepeda;
+			productReference = E9A5A4F425C8FBF30080E966 /* dataModelSepeda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9A5A50925C8FBF50080E966 /* dataModelSepedaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A5A52125C8FBF50080E966 /* Build configuration list for PBXNativeTarget "dataModelSepedaTests" */;
+			buildPhases = (
+				E9A5A50625C8FBF50080E966 /* Sources */,
+				E9A5A50725C8FBF50080E966 /* Frameworks */,
+				E9A5A50825C8FBF50080E966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A5A50C25C8FBF50080E966 /* PBXTargetDependency */,
+			);
+			name = dataModelSepedaTests;
+			productName = dataModelSepedaTests;
+			productReference = E9A5A50A25C8FBF50080E966 /* dataModelSepedaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9A5A51425C8FBF50080E966 /* dataModelSepedaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A5A52425C8FBF50080E966 /* Build configuration list for PBXNativeTarget "dataModelSepedaUITests" */;
+			buildPhases = (
+				E9A5A51125C8FBF50080E966 /* Sources */,
+				E9A5A51225C8FBF50080E966 /* Frameworks */,
+				E9A5A51325C8FBF50080E966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A5A51725C8FBF50080E966 /* PBXTargetDependency */,
+			);
+			name = dataModelSepedaUITests;
+			productName = dataModelSepedaUITests;
+			productReference = E9A5A51525C8FBF50080E966 /* dataModelSepedaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9A5A4EC25C8FBF30080E966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E9A5A4F325C8FBF30080E966 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E9A5A50925C8FBF50080E966 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E9A5A4F325C8FBF30080E966;
+					};
+					E9A5A51425C8FBF50080E966 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E9A5A4F325C8FBF30080E966;
+					};
+				};
+			};
+			buildConfigurationList = E9A5A4EF25C8FBF30080E966 /* Build configuration list for PBXProject "dataModelSepeda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9A5A4EB25C8FBF30080E966;
+			productRefGroup = E9A5A4F525C8FBF30080E966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9A5A4F325C8FBF30080E966 /* dataModelSepeda */,
+				E9A5A50925C8FBF50080E966 /* dataModelSepedaTests */,
+				E9A5A51425C8FBF50080E966 /* dataModelSepedaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9A5A4F225C8FBF30080E966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A5A50425C8FBF50080E966 /* LaunchScreen.storyboard in Resources */,
+				E9A5A50125C8FBF50080E966 /* Preview Assets.xcassets in Resources */,
+				E9A5A4FE25C8FBF50080E966 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5A50825C8FBF50080E966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5A51325C8FBF50080E966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9A5A4F025C8FBF30080E966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E957623B25C938A900B9AF4F /* GlobalObject.swift in Sources */,
+				E9A5A4F825C8FBF30080E966 /* AppDelegate.swift in Sources */,
+				E957623625C9382100B9AF4F /* Datamodel.swift in Sources */,
+				E9A5A4FA25C8FBF30080E966 /* SceneDelegate.swift in Sources */,
+				E9A5A4FC25C8FBF30080E966 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5A50625C8FBF50080E966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A5A50F25C8FBF50080E966 /* dataModelSepedaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5A51125C8FBF50080E966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A5A51A25C8FBF50080E966 /* dataModelSepedaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9A5A50C25C8FBF50080E966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A5A4F325C8FBF30080E966 /* dataModelSepeda */;
+			targetProxy = E9A5A50B25C8FBF50080E966 /* PBXContainerItemProxy */;
+		};
+		E9A5A51725C8FBF50080E966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A5A4F325C8FBF30080E966 /* dataModelSepeda */;
+			targetProxy = E9A5A51625C8FBF50080E966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9A5A50225C8FBF50080E966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A5A50325C8FBF50080E966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9A5A51C25C8FBF50080E966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9A5A51D25C8FBF50080E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9A5A51F25C8FBF50080E966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"dataModelSepeda/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = dataModelSepeda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.dataModelSepeda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A5A52025C8FBF50080E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"dataModelSepeda/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = dataModelSepeda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.dataModelSepeda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9A5A52225C8FBF50080E966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dataModelSepedaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.dataModelSepedaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dataModelSepeda.app/dataModelSepeda";
+			};
+			name = Debug;
+		};
+		E9A5A52325C8FBF50080E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dataModelSepedaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.dataModelSepedaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dataModelSepeda.app/dataModelSepeda";
+			};
+			name = Release;
+		};
+		E9A5A52525C8FBF50080E966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dataModelSepedaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.dataModelSepedaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dataModelSepeda;
+			};
+			name = Debug;
+		};
+		E9A5A52625C8FBF50080E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dataModelSepedaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.dataModelSepedaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dataModelSepeda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9A5A4EF25C8FBF30080E966 /* Build configuration list for PBXProject "dataModelSepeda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A5A51C25C8FBF50080E966 /* Debug */,
+				E9A5A51D25C8FBF50080E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A5A51E25C8FBF50080E966 /* Build configuration list for PBXNativeTarget "dataModelSepeda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A5A51F25C8FBF50080E966 /* Debug */,
+				E9A5A52025C8FBF50080E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A5A52125C8FBF50080E966 /* Build configuration list for PBXNativeTarget "dataModelSepedaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A5A52225C8FBF50080E966 /* Debug */,
+				E9A5A52325C8FBF50080E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A5A52425C8FBF50080E966 /* Build configuration list for PBXNativeTarget "dataModelSepedaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A5A52525C8FBF50080E966 /* Debug */,
+				E9A5A52625C8FBF50080E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9A5A4EC25C8FBF30080E966 /* Project object */;
+}
